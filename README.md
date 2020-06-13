@@ -9,7 +9,7 @@ displayed in order of recency based on the publishing date starting from the Fir
 
 ### COVID19 Guide App Screenshots
 
-<img src="https://media.giphy.com/media/XzdBwNRIzQjGEkdJpq/giphy.gif" width="290"> <img src="https://media.giphy.com/media/Q5oA5xuad7SJMcOknf/giphy.gif" width="290"> <img src="https://media.giphy.com/media/j3tDtEBaxlElasE65F/giphy.gif" width="290"> <img src="https://media.giphy.com/media/XDpFmHRHWjnN2F14sf/giphy.gif" width="290"> <img src="https://media.giphy.com/media/UQt9gzAz58TumvNXEa/giphy.gif" width="290">
+<img src="https://media.giphy.com/media/XzdBwNRIzQjGEkdJpq/giphy.gif" width="290"> <img src="https://media.giphy.com/media/Xy744CWytyJOadh5p3/giphy.gif" width="290"> <img src="https://media.giphy.com/media/Q5oA5xuad7SJMcOknf/giphy.gif" width="290"> <img src="https://media.giphy.com/media/j3tDtEBaxlElasE65F/giphy.gif" width="290"> <img src="https://media.giphy.com/media/XDpFmHRHWjnN2F14sf/giphy.gif" width="290"> <img src="https://media.giphy.com/media/UQt9gzAz58TumvNXEa/giphy.gif" width="290">
 
 ### Dowload the App
 To use this repository, fork/clone it, or download a zip using the green "Clone or download" button at the top of the file list. 
