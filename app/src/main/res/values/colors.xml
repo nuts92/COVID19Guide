@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6C63FF</color>
+    <color name="colorPrimaryDark">#3f1dcb</color>
+    <color name="colorAccent">#EE4178</color>
+
+    <!-- A list of additional colors that will be used in the Coronavirus Guide App -->
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+    <color name="lightGray">#d9d9d9</color>
+    <color name="yellow_bright">#fffd25</color>
+    <color name="yellow_dark">#ffde59</color>
+    <color name="purple">#6822f4</color>
+
+</resources>

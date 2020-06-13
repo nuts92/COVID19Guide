@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_view_layout_margin">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/layout_margin_medium">
+
+        <TextView
+            android:id="@+id/article_title"
+            style="@style/article_title_style"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/article_title_text_size"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/article_image"
+            tools:text="If I get corona, I get corona': the Americans who wish they'd taken Covid-19 seriously" />
+
+        <TextView
+            android:id="@+id/article_description"
+            style="@style/article_title_style"
+            android:layout_marginTop="@dimen/layout_margin_small"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/article_description_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/article_title"
+            tools:text="If I get corona, I get corona': the Americans who wish they'd taken Covid-19 seriously" />
+
+        <TextView
+            android:id="@+id/article_section"
+            style="@style/category_style"
+            android:layout_marginEnd="@dimen/layout_margin_small"
+            android:layout_marginRight="@dimen/layout_margin_small"
+            android:background="@color/colorPrimary"
+            app:layout_constraintEnd_toStartOf="@+id/article_author"
+            app:layout_constraintHeight_percent="0.13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/article_description"
+            app:layout_constraintWidth_percent="0.4"
+            tools:text="Category:\nLife and style" />
+
+        <TextView
+            android:id="@+id/article_author"
+            style="@style/category_style"
+            android:layout_marginStart="@dimen/layout_margin_small"
+            android:layout_marginLeft="@dimen/layout_margin_small"
+            android:background="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.13"
+            app:layout_constraintStart_toEndOf="@+id/article_section"
+            app:layout_constraintTop_toBottomOf="@+id/article_description"
+            app:layout_constraintWidth_percent="0.4"
+            tools:text="By: \nSebastien Karley" />
+
+        <Button
+            android:id="@+id/read_more_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin_medium"
+            android:layout_marginEnd="@dimen/layout_margin_medium"
+            android:layout_marginRight="@dimen/layout_margin_medium"
+            android:background="@drawable/btn_style_one"
+            android:padding="@dimen/read_more_button_padding"
+            android:text="@string/read_more_button"
+            android:textColor="@color/white"
+            android:textSize="@dimen/article_description_text_size"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/article_date" />
+
+        <ImageView
+            android:id="@+id/article_image"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/article_image_height"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/article_image_placeholder" />
+
+        <TextView
+            android:id="@+id/article_date"
+            style="@style/category_style"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin_large"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/article_section"
+            tools:text="Published On: 2020-06-01" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

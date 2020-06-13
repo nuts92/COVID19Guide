@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">COVID19 Guide</string>
+
+    <!-- A String for the Read More Button in the Main Activity Screen-->
+    <string name="read_more_button">Read More</string>
+
+    <!-- Text to display when there are no articles to display [CHAR LIMIT=NONE] -->
+    <string name="no_news_articles">Unfortunately \nNo Articles Are Found</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">Sorry,\nNo Internet Connection</string>
+
+    <!-- A list of Strings for the displayed card view article -->
+    <string name="article_section">Category:\n%s</string>
+    <string name="article_date">Published on: %s</string>
+    <string name="article_author_name">By:\n%s</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- A list of dimensions that will be used across the app -->
+    <dimen name="layout_margin_small">8dp</dimen>
+    <dimen name="layout_margin_medium">16dp</dimen>
+    <dimen name="line_spacing_extra">4dp</dimen>
+    <dimen name="empty_state_text_size">24sp</dimen>
+    <dimen name="card_view_layout_margin">10dp</dimen>
+    <dimen name="article_title_text_size">20sp</dimen>
+    <dimen name="article_description_text_size">18sp</dimen>
+    <dimen name="section_text_size">16sp</dimen>
+    <dimen name="read_more_button_padding">12dp</dimen>
+    <dimen name="article_image_height">180dp</dimen>
+    <dimen name="layout_margin_large">24dp</dimen>
+
+</resources>
